@@ -28,8 +28,8 @@
 <th>iOS</th>
   </tr>
   <tr>
-    <td><img src = "screenshots/ChatUI_Android.png"/></td>
- <td><img src = "screenshots/ChatUI_iOS.png"/></td>
+    <td><img src = "screenshots/ChatUI_Android.png" height="100"/></td>
+ <td><img src = "screenshots/ChatUI_iOS.png"  height="100"/></td>
   </tr>
 </table>
 
