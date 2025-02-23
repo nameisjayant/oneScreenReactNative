@@ -1,5 +1,5 @@
 import {memo, ReactNode} from 'react';
-import {StyleSheet, View, ViewStyle} from 'react-native';
+import {StyleSheet, View, ViewProps, ViewStyle} from 'react-native';
 
 type Props = {
   children: ReactNode;
@@ -7,7 +7,7 @@ type Props = {
   space?: number;
 };
 
-const Hstack = ({children, style, space = 0}: Props) => {
+const Hstack = ({children, style, space = 0}: Props & ViewProps) => {
   return (
     <View style={StyleSheet.flatten([styles.container, style, {gap: space}])}>
       {children}

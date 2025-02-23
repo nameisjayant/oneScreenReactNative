@@ -1,5 +1,5 @@
 import {memo, ReactNode} from 'react';
-import {StyleSheet, View, ViewStyle} from 'react-native';
+import {StyleSheet, View, ViewProps, ViewStyle} from 'react-native';
 
 type Props = {
   children: ReactNode;
@@ -7,7 +7,7 @@ type Props = {
   space?: number;
 };
 
-const Vstack = ({children, style, space = 0}: Props) => {
+const Vstack = ({children, style, space = 0}: Props & ViewProps) => {
   return (
     <View style={StyleSheet.flatten([styles.container, style, {gap: space}])}>
       {children}
@@ -21,4 +21,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default memo(Vstack)
+export default memo(Vstack);

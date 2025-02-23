@@ -28,6 +28,7 @@ const styles = StyleSheet.create({
   container: {
     paddingTop: 10,
     backgroundColor: 'white',
+    height: '100%',
   },
 });
 export default memo(ChatRow);
