@@ -1,4 +1,4 @@
-## Jetpack Compose Single Screen Page UIS
+## React Native Single Screen Page UIS
 
 <p> Aim of this repository is to design single screen page UIS with React Native.</p>
 
