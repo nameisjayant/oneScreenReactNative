@@ -30,4 +30,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default memo(AppText)
+export default memo(AppText);
