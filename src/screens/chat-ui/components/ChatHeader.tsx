@@ -28,6 +28,7 @@ const ChatHeader = () => {
 const styles = StyleSheet.create({
   container: {
     alignItems: 'center',
+    paddingHorizontal: 24,
   },
   hello: {
     fontSize: 16,

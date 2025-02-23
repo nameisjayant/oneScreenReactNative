@@ -1,5 +1,6 @@
 import {memo, ReactNode} from 'react';
 import {Vstack} from '../../../components';
+import {StatusBar, StyleSheet} from 'react-native';
 
 type Props = {
   header?: ReactNode;
@@ -11,13 +12,22 @@ type Props = {
 
 const ChatRow = ({header, searchBar, stories, line, chatList}: Props) => {
   return (
-    <Vstack style={{flex: 1, paddingHorizontal: 24, paddingTop: 10}} space={24}>
-      {header}
-      {searchBar}
-      {stories}
-      {line}
-      {chatList}
-    </Vstack>
+    <>
+      <StatusBar backgroundColor={'white'} />
+      <Vstack style={styles.container} space={24}>
+        {header}
+        {searchBar}
+        {stories}
+        {line}
+        {chatList}
+      </Vstack>
+    </>
   );
 };
+const styles = StyleSheet.create({
+  container: {
+    paddingTop: 10,
+    backgroundColor: 'white',
+  },
+});
 export default memo(ChatRow);
