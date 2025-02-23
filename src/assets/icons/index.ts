@@ -7,6 +7,14 @@ import Photo6 from './Photo_6.svg';
 import SearchIcon from './Search.svg';
 import NotificationIcon from './Notification.svg';
 import DoubleTickIcon from './DoubleTick.svg';
+import InstagramIcon from './instagram.svg';
+import IGTVIcon from './IGTV.svg';
+import MessengerIcon from './Messanger.svg';
+import CameraIcon from './camera.svg';
+import CommentIcon from './Comment.svg'
+import BookmarkIcon from './Bookmark.svg'
+import LikeIcon from './Like.svg'
+import BlueTickIcon from './BlueTick.svg'
 
 export {
   Photo1,
@@ -18,4 +26,12 @@ export {
   SearchIcon,
   NotificationIcon,
   DoubleTickIcon,
+  InstagramIcon,
+  IGTVIcon,
+  MessengerIcon,
+  CameraIcon,
+  CommentIcon,
+  BookmarkIcon,
+  LikeIcon,
+  BlueTickIcon
 };
