@@ -8,7 +8,8 @@ import {
 } from 'react-native';
 
 import {Colors} from 'react-native/Libraries/NewAppScreen';
-import {ChatScreen} from './src/screens';
+import {ChatScreen, InstagramHomeScreen} from './src/screens';
+import {AppColors} from './src/config/colors';
 
 function App(): React.JSX.Element {
   const isDarkMode = useColorScheme() === 'dark';
@@ -18,12 +19,17 @@ function App(): React.JSX.Element {
   };
 
   return (
-    <SafeAreaView>
-      <StatusBar
-        barStyle={isDarkMode ? 'light-content' : 'dark-content'}
-        backgroundColor={backgroundStyle.backgroundColor}
-      />
-      <ChatScreen />
+    <SafeAreaView
+      style={{
+        backgroundColor: AppColors.black_12,
+      }}>
+      <View>
+        <StatusBar
+          barStyle={!isDarkMode ? 'light-content' : 'dark-content'}
+          backgroundColor={backgroundStyle.backgroundColor}
+        />
+        <InstagramHomeScreen />
+      </View>
     </SafeAreaView>
   );
 }
