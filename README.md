@@ -22,6 +22,8 @@
 
 ## 🖥️ Screenshots
 
+### Chat UI
+
 <table style="width:100%">
   <tr>
     <th>Android</th>
