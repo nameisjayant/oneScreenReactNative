@@ -11,10 +11,11 @@ import InstagramIcon from './instagram.svg';
 import IGTVIcon from './IGTV.svg';
 import MessengerIcon from './Messanger.svg';
 import CameraIcon from './camera.svg';
-import CommentIcon from './Comment.svg'
-import BookmarkIcon from './Bookmark.svg'
-import LikeIcon from './Like.svg'
-import BlueTickIcon from './BlueTick.svg'
+import CommentIcon from './Comment.svg';
+import BookmarkIcon from './Bookmark.svg';
+import LikeIcon from './Like.svg';
+import BlueTickIcon from './BlueTick.svg';
+import MoreIcon from './MoreIcon.svg';
 
 export {
   Photo1,
@@ -33,5 +34,6 @@ export {
   CommentIcon,
   BookmarkIcon,
   LikeIcon,
-  BlueTickIcon
+  BlueTickIcon,
+  MoreIcon,
 };

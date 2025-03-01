@@ -1,15 +1,21 @@
 import {memo, ReactNode} from 'react';
 import {Vstack} from '../../../components';
-import {StatusBar} from 'react-native';
+import {FlatList, StatusBar, View} from 'react-native';
 import {AppColors} from '../../../config/colors';
 
 type InstagramHomeProps = {
   header?: ReactNode;
   stories?: ReactNode;
-  posts?: ReactNode;
+  line?: ReactNode;
+  posts: React.ReactElement;
 };
 
-const InstagramHomeRow = ({header, stories, posts}: InstagramHomeProps) => {
+const InstagramHomeRow = ({
+  header,
+  stories,
+  posts,
+  line,
+}: InstagramHomeProps) => {
   return (
     <>
       <StatusBar backgroundColor={AppColors.black_12} />
@@ -19,8 +25,18 @@ const InstagramHomeRow = ({header, stories, posts}: InstagramHomeProps) => {
           backgroundColor: 'black',
         }}>
         {header}
-        {stories}
-        {posts}
+        <FlatList
+          data={Array.from({length: 10})}
+          ListHeaderComponent={
+            <>
+              {stories}
+              {line}
+            </>
+          }
+          renderItem={({item}) => posts}
+          showsVerticalScrollIndicator={false}
+          ItemSeparatorComponent={() => <View style={{height: 24}} />}
+        />
       </Vstack>
     </>
   );

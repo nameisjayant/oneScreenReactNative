@@ -27,11 +27,24 @@
 <table style="width:100%">
   <tr>
     <th>Android</th>
-<th>iOS</th>
+    <th>iOS</th>
   </tr>
   <tr>
     <td><img src = "screenshots/ChatUI_Android.png"/></td>
  <td><img src = "screenshots/ChatUI_iOS.png"/></td>
+  </tr>
+</table>
+
+### Instagram Home UI
+
+<table style="width:100%">
+  <tr>
+    <th>Android</th>
+    <th>iOS</th> 
+  </tr>
+  <tr>
+    <td><img src = "screenshots/instagram_home_android.png" height="500"/></td>
+ <td><img src = "screenshots/instagram_home_ios.png"  height="500"/></td>
   </tr>
 </table>
 

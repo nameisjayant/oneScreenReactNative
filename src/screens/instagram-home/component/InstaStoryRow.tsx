@@ -48,6 +48,7 @@ const styles = StyleSheet.create({
     height: 56,
     borderRadius: 50,
     overflow: 'hidden',
+    backgroundColor: 'black',
   },
   name: {
     fontSize: 12,
