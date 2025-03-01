@@ -1,7 +1,9 @@
 import {
   InstagramHomeHeader,
   InstagramHomeRow,
+  InstaLine,
   InstaStoryListComponent,
+  PostRow,
 } from '../component';
 
 const InstagramHomeScreen = () => {
@@ -9,6 +11,8 @@ const InstagramHomeScreen = () => {
     <InstagramHomeRow
       header={<InstagramHomeHeader />}
       stories={<InstaStoryListComponent />}
+      line={<InstaLine/>}
+      posts={<PostRow />}
     />
   );
 };
