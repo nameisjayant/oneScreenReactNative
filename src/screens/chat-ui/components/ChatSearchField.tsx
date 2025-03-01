@@ -12,7 +12,7 @@ type Props = {
 const ChatSearchField = ({value, onValueChange}: Props) => {
   return (
     <Hstack style={styles.container} space={8}>
-      <SearchIcon />
+      <SearchIcon color={AppColors.voilet_a4} />
       <TextInput
         value={value}
         onChangeText={onValueChange}
