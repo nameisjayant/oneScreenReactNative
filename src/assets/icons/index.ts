@@ -16,6 +16,17 @@ import BookmarkIcon from './Bookmark.svg';
 import LikeIcon from './Like.svg';
 import BlueTickIcon from './BlueTick.svg';
 import MoreIcon from './MoreIcon.svg';
+import SoccerIcon from './soccer.svg';
+import BasketBallIcon from './Basketball.svg';
+import RubgyIcon from './Rubgy.svg';
+import BaseBallIcon from './BaseBall.svg';
+import CricketBallIcon from './CricketBall.svg';
+import SpainFlagIcon from './SpainIcon.svg';
+import ArrowRightIcon from './ArrowRightIcon.svg';
+import AtleticoIcon from './Atletico.svg';
+import RealmadridIcon from './realmadrid.svg';
+import BarcelonaIcon from './barcelona.svg';
+import VillarealIcon from './villareal.svg';
 
 export {
   Photo1,
@@ -36,4 +47,15 @@ export {
   LikeIcon,
   BlueTickIcon,
   MoreIcon,
+  SoccerIcon,
+  BasketBallIcon,
+  BaseBallIcon,
+  RubgyIcon,
+  CricketBallIcon,
+  SpainFlagIcon,
+  ArrowRightIcon,
+  AtleticoIcon,
+  RealmadridIcon,
+  BarcelonaIcon,
+  VillarealIcon,
 };
