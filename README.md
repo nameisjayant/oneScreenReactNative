@@ -24,16 +24,18 @@
 
 ### Chat UI
 
-<table style="width:100%">
-  <tr>
-    <th>Android</th>
-    <th>iOS</th>
-  </tr>
-  <tr>
-    <td><img src = "screenshots/ChatUI_Android.png" height="500"/></td>
- <td><img src = "screenshots/ChatUI_iOS.png" height="500"/></td>
-  </tr>
-</table>
+<div style="display: flex; justify-content: center;">
+  <table style="width:80%; text-align: center;">
+    <tr>
+      <th>Android</th>
+      <th>iOS</th>
+    </tr>
+    <tr>
+      <td><img src="screenshots/ChatUI_Android.png" height="500"/></td>
+      <td><img src="screenshots/ChatUI_iOS.png" height="500"/></td>
+    </tr>
+  </table>
+</div>
 
 ### Instagram Home UI
 
