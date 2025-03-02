@@ -26,7 +26,7 @@ const SportList = () => {
           />
         )}
         style={{
-          paddingHorizontal: 16,
+          paddingHorizontal: 24,
         }}
       />
     </View>
