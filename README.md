@@ -48,6 +48,19 @@
   </tr>
 </table>
 
+### Scoreboard UI
+
+<table style="width:100%">
+  <tr>
+    <th>Android</th>
+    <th>iOS</th> 
+  </tr>
+  <tr>
+    <td><img src = "screenshots/scoreboard_ui_android.png" height="500"/></td>
+ <td><img src = "screenshots/scoreboard_ui_ios.png"  height="500"/></td>
+  </tr>
+</table>
+
 ## Find this project useful ? ❤️
 
 - Support it by clicking the ⭐️ button on the upper right of this page. ✌️
